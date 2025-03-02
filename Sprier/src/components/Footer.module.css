@@ -1,0 +1,114 @@
+.footer-main {
+  background-color: #121212; 
+  color: #fff;
+  padding: 50px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-main .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inner-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-inner {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.talk .logo img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.right-inner {
+  display: flex;
+  gap: 30px;
+}
+
+.item-inner ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-inner li {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.item-inner p {
+  margin: 5px 0;
+}
+
+.item-inner p a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.item-inner p a:hover {
+  text-decoration: underline;
+}
+
+.mail a {
+  color: #f39c12; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mail a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #f39c12; /* Orange color for icons */
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .inner-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right-inner {
+    justify-content: center;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+}
